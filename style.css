@@ -1,0 +1,40 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em 2em;
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    font-family: Calibri, Arial, sans-serif;
+}
+label, input, textarea, select {
+    margin: 4px;
+    padding: 8px;
+}
+label {
+    text-align: right;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+input, textarea, select {
+    width: 250px;    
+}
+.button {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 47%;
+    border: none;
+}
+#btnsubmit {
+    background-color: green;
+}
+#btnsubmit:hover {
+    background-color: darkgreen;
+}
+#btnreset {
+    background-color: #C00000;
+}
+#btnreset:hover {
+    background-color: #900000;
+}
